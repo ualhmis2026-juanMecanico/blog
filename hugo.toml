@@ -14,3 +14,5 @@ theme = 'ananke'
 
     [markup.goldmark.renderer]
     unsafe = true
+
+    ssh -i <"C:\Users\crist\Documents\Herraminetas\claves\id_rsa"> azureuser@20.251.144.182
