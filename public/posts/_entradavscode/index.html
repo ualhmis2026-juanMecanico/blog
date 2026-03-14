@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>EntradaVSCode | juanMecanico</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Configuración del Entorno de Desarrollo
+Fecha: 14 de marzo de 2026
+Autor: Cristobal Cano Quesada
+Introducción
+Para desarrollar nuestro blog de equipo con Hugo, hemos seleccionado Visual Studio Code (VSC) como nuestro editor principal. En esta entrada explico los pasos que hemos seguido para dejarlo a punto.
+Pasos para la configuración
+
+Instalación de VSC: Descargamos e instalamos el editor para nuestra plataforma.
+Instalación de Hugo: Configuramos el binario de Hugo en el sistema para poder usar el comando hugo server desde la terminal integrada.
+Extensiones recomendadas: Instalamos extensiones para el resaltado de sintaxis de Markdown y TOML, facilitando la edición de archivos de contenido y configuración.
+Control de Versiones: Vinculamos VSC con nuestra cuenta de GitHub para gestionar las ramas y los Pull Requests sin salir del editor.
+
+Beneficios
+Tener un entorno bien configurado nos permite trabajar de forma colaborativa mediante el modelo GitHub Flow, facilitando la creación de feature branches y la integración de cambios en la rama principal.">
+    <meta name="generator" content="Hugo 0.157.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/blog/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/blog/posts/_entradavscode/">
+    
+
+    
+    
+    <meta property="og:url" content="http://localhost:1313/blog/posts/_entradavscode/">
+  <meta property="og:site_name" content="juanMecanico">
+  <meta property="og:title" content="EntradaVSCode">
+  <meta property="og:description" content="Configuración del Entorno de Desarrollo Fecha: 14 de marzo de 2026
+Autor: Cristobal Cano Quesada
+Introducción Para desarrollar nuestro blog de equipo con Hugo, hemos seleccionado Visual Studio Code (VSC) como nuestro editor principal. En esta entrada explico los pasos que hemos seguido para dejarlo a punto.
+Pasos para la configuración Instalación de VSC: Descargamos e instalamos el editor para nuestra plataforma. Instalación de Hugo: Configuramos el binario de Hugo en el sistema para poder usar el comando hugo server desde la terminal integrada. Extensiones recomendadas: Instalamos extensiones para el resaltado de sintaxis de Markdown y TOML, facilitando la edición de archivos de contenido y configuración. Control de Versiones: Vinculamos VSC con nuestra cuenta de GitHub para gestionar las ramas y los Pull Requests sin salir del editor. Beneficios Tener un entorno bien configurado nos permite trabajar de forma colaborativa mediante el modelo GitHub Flow, facilitando la creación de feature branches y la integración de cambios en la rama principal.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-03-14T11:07:10+01:00">
+    <meta property="article:modified_time" content="2026-03-14T11:07:10+01:00">
+
+  <meta itemprop="name" content="EntradaVSCode">
+  <meta itemprop="description" content="Configuración del Entorno de Desarrollo Fecha: 14 de marzo de 2026
+Autor: Cristobal Cano Quesada
+Introducción Para desarrollar nuestro blog de equipo con Hugo, hemos seleccionado Visual Studio Code (VSC) como nuestro editor principal. En esta entrada explico los pasos que hemos seguido para dejarlo a punto.
+Pasos para la configuración Instalación de VSC: Descargamos e instalamos el editor para nuestra plataforma. Instalación de Hugo: Configuramos el binario de Hugo en el sistema para poder usar el comando hugo server desde la terminal integrada. Extensiones recomendadas: Instalamos extensiones para el resaltado de sintaxis de Markdown y TOML, facilitando la edición de archivos de contenido y configuración. Control de Versiones: Vinculamos VSC con nuestra cuenta de GitHub para gestionar las ramas y los Pull Requests sin salir del editor. Beneficios Tener un entorno bien configurado nos permite trabajar de forma colaborativa mediante el modelo GitHub Flow, facilitando la creación de feature branches y la integración de cambios en la rama principal.">
+  <meta itemprop="datePublished" content="2026-03-14T11:07:10+01:00">
+  <meta itemprop="dateModified" content="2026-03-14T11:07:10+01:00">
+  <meta itemprop="wordCount" content="169">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="EntradaVSCode">
+  <meta name="twitter:description" content="Configuración del Entorno de Desarrollo Fecha: 14 de marzo de 2026
+Autor: Cristobal Cano Quesada
+Introducción Para desarrollar nuestro blog de equipo con Hugo, hemos seleccionado Visual Studio Code (VSC) como nuestro editor principal. En esta entrada explico los pasos que hemos seguido para dejarlo a punto.
+Pasos para la configuración Instalación de VSC: Descargamos e instalamos el editor para nuestra plataforma. Instalación de Hugo: Configuramos el binario de Hugo en el sistema para poder usar el comando hugo server desde la terminal integrada. Extensiones recomendadas: Instalamos extensiones para el resaltado de sintaxis de Markdown y TOML, facilitando la edición de archivos de contenido y configuración. Control de Versiones: Vinculamos VSC con nuestra cuenta de GitHub para gestionar las ramas y los Pull Requests sin salir del editor. Beneficios Tener un entorno bien configurado nos permite trabajar de forma colaborativa mediante el modelo GitHub Flow, facilitando la creación de feature branches y la integración de cambios en la rama principal.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development is-page is-page page-_entradaVSCode">
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/blog/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        juanMecanico
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/blog/miembros/" title="Miembros page">
+              Miembros
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/blog/contacto/" title="Contacto page">
+              Contacto
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+
+  <article class="page-_entradaVSCode flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">EntradaVSCode</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2026-03-14T11:07:10+01:00">March 14, 2026</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><h1 id="configuración-del-entorno-de-desarrollo">Configuración del Entorno de Desarrollo</h1>
+<p><strong>Fecha</strong>: 14 de marzo de 2026<br>
+<strong>Autor</strong>: Cristobal Cano Quesada</p>
+<h2 id="introducción">Introducción</h2>
+<p>Para desarrollar nuestro blog de equipo con <strong>Hugo</strong>, hemos seleccionado <strong>Visual Studio Code</strong> (VSC) como nuestro editor principal. En esta entrada explico los pasos que hemos seguido para dejarlo a punto.</p>
+<h2 id="pasos-para-la-configuración">Pasos para la configuración</h2>
+<ol>
+<li><strong>Instalación de VSC</strong>: Descargamos e instalamos el editor para nuestra plataforma.</li>
+<li><strong>Instalación de Hugo</strong>: Configuramos el binario de Hugo en el sistema para poder usar el comando <code>hugo server</code> desde la terminal integrada.</li>
+<li><strong>Extensiones recomendadas</strong>: Instalamos extensiones para el resaltado de sintaxis de <strong>Markdown</strong> y <strong>TOML</strong>, facilitando la edición de archivos de contenido y configuración.</li>
+<li><strong>Control de Versiones</strong>: Vinculamos VSC con nuestra cuenta de <strong>GitHub</strong> para gestionar las ramas y los <em>Pull Requests</em> sin salir del editor.</li>
+</ol>
+<h2 id="beneficios">Beneficios</h2>
+<p>Tener un entorno bien configurado nos permite trabajar de forma colaborativa mediante el modelo <strong>GitHub Flow</strong>, facilitando la creación de <em>feature branches</em> y la integración de cambios en la rama principal.</p>
+<p>¡Con esto ya estamos listos para seguir publicando contenido!</p>
+<ul class="pa0">
+  
+</ul>
+
+      
+    </div></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/blog/" >
+    &copy;  juanMecanico 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

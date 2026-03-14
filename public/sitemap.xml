@@ -2,15 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/blog/posts/_entradavscode/</loc>
+    <lastmod>2026-03-14T11:07:10+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/</loc>
+    <lastmod>2026-03-14T11:07:10+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/contacto/</loc>
+    <lastmod>2026-03-14T10:20:38+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/miembros/_ccq314/</loc>
+    <lastmod>2026-03-14T10:20:38+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/miembros/</loc>
+    <lastmod>2026-03-14T10:20:38+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2026-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/_ccq314/</loc>
+    <loc>http://localhost:1313/blog/miembros/_sag854/</loc>
   </url><url>
-    <loc>http://localhost:1313/_sag854/</loc>
+    <loc>http://localhost:1313/blog/miembros/_var500/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/blog/posts/_comandosgit/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/blog/posts/_desplieguegithubpages/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
   </url>
 </urlset>
