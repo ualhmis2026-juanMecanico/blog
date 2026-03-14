@@ -1,4 +1,4 @@
-baseURL = 'https://ualhmis2026-juanmecanico.github.io/blog/'
+baseURL = 'http://sesion04.norwayeast.cloudapp.azure.com/'
 languageCode = 'en-us'
 title = 'juanMecanico'
 theme = 'ananke'
