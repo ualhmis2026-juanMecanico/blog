@@ -1,6 +1,6 @@
 +++
 date = '2026-03-14T10:20:38+01:00'
-draft = true
+draft = false
 title = 'Contacto'
 +++
 Si tienes alguna duda o quieres contactar con el equipo **juanMecanico**, rellena el siguiente formulario:
