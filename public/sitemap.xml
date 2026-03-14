@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/posts/_entradavscode/</loc>
+    <loc>http://sesion04.norwayeast.cloudapp.azure.com/posts/_entradavscode/</loc>
     <lastmod>2026-03-14T11:07:10+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/posts/</loc>
+    <loc>http://sesion04.norwayeast.cloudapp.azure.com/posts/</loc>
     <lastmod>2026-03-14T11:07:10+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/contacto/</loc>
+    <loc>http://sesion04.norwayeast.cloudapp.azure.com/contacto/</loc>
     <lastmod>2026-03-14T10:20:38+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/miembros/_ccq314/</loc>
+    <loc>http://sesion04.norwayeast.cloudapp.azure.com/miembros/_ccq314/</loc>
     <lastmod>2026-03-14T10:20:38+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/miembros/</loc>
+    <loc>http://sesion04.norwayeast.cloudapp.azure.com/miembros/</loc>
     <lastmod>2026-03-14T10:20:38+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://sesion04.norwayeast.cloudapp.azure.com/</loc>
     <lastmod>2026-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/miembros/_sag854/</loc>
+    <loc>http://sesion04.norwayeast.cloudapp.azure.com/miembros/_sag854/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/miembros/_var500/</loc>
+    <loc>http://sesion04.norwayeast.cloudapp.azure.com/miembros/_var500/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/posts/_comandosgit/</loc>
+    <loc>http://sesion04.norwayeast.cloudapp.azure.com/posts/_comandosgit/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/posts/_desplieguegithubpages/</loc>
+    <loc>http://sesion04.norwayeast.cloudapp.azure.com/posts/_desplieguegithubpages/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/</loc>
+    <loc>http://sesion04.norwayeast.cloudapp.azure.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
+    <loc>http://sesion04.norwayeast.cloudapp.azure.com/tags/</loc>
   </url>
 </urlset>
