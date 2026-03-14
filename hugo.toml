@@ -1,4 +1,16 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://hmis-sag854-craqdggkagf5ajb3.francecentral-01.azurewebsites.net/'
 languageCode = 'en-us'
-title = 'My New Hugo Project'
+title = 'juanMecanico'
 theme = 'ananke'
+[[menu.main]]
+    name = "Miembros"
+    url = "/Miembros/"
+    weight = 1
+
+[[menu.main]]
+    name = "Contacto"
+    url = "/contacto/"
+    weight = 2
+
+    [markup.goldmark.renderer]
+    unsafe = true
