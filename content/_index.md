@@ -13,7 +13,7 @@ Somos el equipo **juanMecanico**. Estamos desarrollando este blog estático para
 
 ---
 
-### Secciones del Blog
-* **[Entradas del Blog](/posts/):** Aquí encontrarás nuestras últimas publicaciones con título, fecha y resumen.
-* **[Miembros del Equipo](/miembros/):** Conoce a los integrantes del equipo, nuestras aficiones y cuentas de GitHub.
+
+* **[Entradas del Blog](/posts/):** Aquí encontrarás nuestras últimas publicaciones.
+* **[Miembros del Equipo](/miembros/):** Conoce a los integrantes del equipo.
 * **[Contacto](/contacto/):** ¿Quieres decirnos algo? Utiliza nuestro formulario.

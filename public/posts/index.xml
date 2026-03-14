@@ -1,47 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog de Equipo - ualhmis2026_juanMecanico on juanMecanico</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Blog de Equipo - ualhmis2026_juanMecanico on juanMecanico</description>
+    <title>Posts on juanMecanico</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on juanMecanico</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Mar 2026 11:07:10 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EntradaVSCode</title>
       <link>http://localhost:1313/posts/_entradavscode/</link>
       <pubDate>Sat, 14 Mar 2026 11:07:10 +0100</pubDate>
       <guid>http://localhost:1313/posts/_entradavscode/</guid>
       <description>&lt;h1 id=&#34;configuración-del-entorno-de-desarrollo&#34;&gt;Configuración del Entorno de Desarrollo&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fecha&lt;/strong&gt;: 14 de marzo de 2026&lt;br&gt;&#xA;&lt;strong&gt;Autor&lt;/strong&gt;: Cristobal Cano Quesada&lt;/p&gt;&#xA;&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;Para desarrollar nuestro blog de equipo con &lt;strong&gt;Hugo&lt;/strong&gt;, hemos seleccionado &lt;strong&gt;Visual Studio Code&lt;/strong&gt; (VSC) como nuestro editor principal. En esta entrada explico los pasos que hemos seguido para dejarlo a punto.&lt;/p&gt;&#xA;&lt;h2 id=&#34;pasos-para-la-configuración&#34;&gt;Pasos para la configuración&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Instalación de VSC&lt;/strong&gt;: Descargamos e instalamos el editor para nuestra plataforma.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Instalación de Hugo&lt;/strong&gt;: Configuramos el binario de Hugo en el sistema para poder usar el comando &lt;code&gt;hugo server&lt;/code&gt; desde la terminal integrada.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Extensiones recomendadas&lt;/strong&gt;: Instalamos extensiones para el resaltado de sintaxis de &lt;strong&gt;Markdown&lt;/strong&gt; y &lt;strong&gt;TOML&lt;/strong&gt;, facilitando la edición de archivos de contenido y configuración.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Control de Versiones&lt;/strong&gt;: Vinculamos VSC con nuestra cuenta de &lt;strong&gt;GitHub&lt;/strong&gt; para gestionar las ramas y los &lt;em&gt;Pull Requests&lt;/em&gt; sin salir del editor.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;beneficios&#34;&gt;Beneficios&lt;/h2&gt;&#xA;&lt;p&gt;Tener un entorno bien configurado nos permite trabajar de forma colaborativa mediante el modelo &lt;strong&gt;GitHub Flow&lt;/strong&gt;, facilitando la creación de &lt;em&gt;feature branches&lt;/em&gt; y la integración de cambios en la rama principal.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Contacto</title>
-      <link>http://localhost:1313/contacto/</link>
-      <pubDate>Sat, 14 Mar 2026 10:20:38 +0100</pubDate>
-      <guid>http://localhost:1313/contacto/</guid>
-      <description>&lt;p&gt;Si tienes alguna duda o quieres contactar con el equipo &lt;strong&gt;juanMecanico&lt;/strong&gt;, rellena el siguiente formulario:&lt;/p&gt;&#xA;&lt;form action=&#34;https://formspree.io/f/xojklydo&#34; method=&#34;POST&#34; style=&#34;display: flex; flex-direction: column; gap: 10px; max-width: 400px;&#34;&gt;&#xD;&#xA;  &lt;label&gt;&#xD;&#xA;    Nombre:&#xD;&#xA;    &lt;input type=&#34;text&#34; name=&#34;name&#34; required style=&#34;width: 100%;&#34;&gt;&#xD;&#xA;  &lt;/label&gt;&#xD;&#xA;  &lt;label&gt;&#xD;&#xA;    Correo electrónico:&#xD;&#xA;    &lt;input type=&#34;email&#34; name=&#34;email&#34; required style=&#34;width: 100%;&#34;&gt;&#xD;&#xA;  &lt;/label&gt;&#xD;&#xA;  &lt;label&gt;&#xD;&#xA;    Asunto:&#xD;&#xA;    &lt;input type=&#34;text&#34; name=&#34;subject&#34; required style=&#34;width: 100%;&#34;&gt;&#xD;&#xA;  &lt;/label&gt;&#xD;&#xA;  &lt;label&gt;&#xD;&#xA;    Mensaje:&#xD;&#xA;    &lt;textarea name=&#34;message&#34; required style=&#34;width: 100%; height: 100px;&#34;&gt;&lt;/textarea&gt;&#xD;&#xA;  &lt;/label&gt;&#xD;&#xA;  &lt;button type=&#34;submit&#34; style=&#34;padding: 10px; background-color: #0078d4; color: white; border: none; cursor: pointer;&#34;&gt;Enviar mensaje&lt;/button&gt;&#xD;&#xA;&lt;/form&gt;</description>
-    </item>
-    <item>
-      <title>Cristobal Cano Quesada</title>
-      <link>http://localhost:1313/miembros/_ccq314/</link>
-      <pubDate>Sat, 14 Mar 2026 10:20:38 +0100</pubDate>
-      <guid>http://localhost:1313/miembros/_ccq314/</guid>
-      <description>&lt;h1 id=&#34;sobre-mí-cristobal-cano-quesada&#34;&gt;Sobre mí: [Cristobal Cano Quesada]&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/38787926.jpg&#34; alt=&#34;Mi Foto&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;información-general&#34;&gt;Información General&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; [ https://github.com/ualccq314]&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Rol en el equipo:&lt;/strong&gt; Desarrollador&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;mis-gustos-y-aficiones&#34;&gt;Mis gustos y aficiones&lt;/h3&gt;&#xA;&lt;p&gt;Me gusta el deporte en general en especial el futbol, tambien me gusta mucho la musica y pasar tiempo con mi familia y amigos.&lt;/p&gt;&#xA;&lt;h3 id=&#34;mi-contribución-al-proyecto&#34;&gt;Mi contribución al proyecto&lt;/h3&gt;&#xA;&lt;p&gt;En este blog, me encargo de documentar el proceso de configuración de Hugo y el despliegue en Azure, asegurando que toda la metodología de GitHub Flow se cumpla correctamente.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/miembros/_sag854/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/miembros/_sag854/</guid>
-      <description>&lt;h1 id=&#34;sobre-mí-sergio-alías-garcía&#34;&gt;Sobre mí: [Sergio Alías García]&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sag854.jpg&#34; alt=&#34;Mi Foto&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;información-general&#34;&gt;Información General&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; [https://github.com/sag854]&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Rol en el equipo:&lt;/strong&gt; Desarrollador&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;mis-gustos-y-aficiones&#34;&gt;Mis gustos y aficiones&lt;/h3&gt;&#xA;&lt;p&gt;En mi tiempo libre, me gusta profundizar más en temas relacionados con la informática. Además, dedico parte de mi día al deporte.&lt;/p&gt;&#xA;&lt;h3 id=&#34;mi-contribución-al-proyecto&#34;&gt;Mi contribución al proyecto&lt;/h3&gt;&#xA;&lt;p&gt;En este blog, me encargo de realizar una entrada sobre los diferentes comandos que se pueden utilizar en Git, así como una breve introducción del mismo. También he ayudado a realizar la implementación de &amp;ldquo;Hugo&amp;rdquo; como generador de sitios estáticos (SSG).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/miembros/_var500/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/miembros/_var500/</guid>
-      <description>&lt;h1 id=&#34;sobre-mí-víctor-aguilar-ramos&#34;&gt;Sobre mí: [Víctor Aguilar Ramos]&lt;/h1&gt;&#xA;&lt;img src=&#34;http://localhost:1313/var500.jpg&#34; alt=&#34;Víctor&#34; style=&#34;width: 250px; height: 320px; object-fit: cover; border-radius: 8px;&#34;&gt;&#xD;&#xA;&lt;h3 id=&#34;información-general&#34;&gt;Información General&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; [ https://github.com/ualvar500]&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Rol en el equipo:&lt;/strong&gt; Desarrollador&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;mis-gustos-y-aficiones&#34;&gt;Mis gustos y aficiones&lt;/h3&gt;&#xA;&lt;p&gt;Disfruto de los videojuegos, los depertes de contacto y levantamiento y de la comida.&lt;/p&gt;&#xA;&lt;h3 id=&#34;mi-contribución-al-proyecto&#34;&gt;Mi contribución al proyecto&lt;/h3&gt;&#xA;&lt;p&gt;Mi rol en este blog, es el de la creación de la parte personal y el despliegue en GitHub pages todo con el objetivo de mantener un espacio de trabajo sano y justo.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
