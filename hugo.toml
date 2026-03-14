@@ -1,4 +1,6 @@
 baseURL = 'http://sesion04.norwayeast.cloudapp.azure.com/'
+relativeURLs = true
+canonifyURLs = false
 languageCode = 'en-us'
 title = 'juanMecanico'
 theme = 'ananke'
