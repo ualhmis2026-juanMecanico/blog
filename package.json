@@ -1,0 +1,9 @@
+{
+  "name": "hugo-site",
+  "version": "1.0.0",
+  "description": "Sitio estático con Hugo",
+  "scripts": {
+    "build": "hugo --minify"
+  },
+  "dependencies": {}
+}
