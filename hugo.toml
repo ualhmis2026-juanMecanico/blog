@@ -1,4 +1,4 @@
-baseURL = 'https://hmis-sag854-craqdggkagf5ajb3.francecentral-01.azurewebsites.net/'
+baseURL = 'http://sesion04.norwayeast.cloudapp.azure.com/'
 languageCode = 'en-us'
 title = 'juanMecanico'
 theme = 'ananke'
@@ -15,3 +15,4 @@ theme = 'ananke'
     [markup.goldmark.renderer]
     unsafe = true
 
+    
